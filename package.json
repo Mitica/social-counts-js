@@ -1,0 +1,31 @@
+{
+  "name": "social-counts",
+  "version": "0.0.1",
+  "description": "Nodejs social shares count module",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mitica/social-counts-js.git"
+  },
+  "keywords": [
+    "social",
+    "shares",
+    "count",
+    "counts"
+  ],
+  "author": "Dumitru Cantea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mitica/social-counts-js/issues"
+  },
+  "homepage": "https://github.com/Mitica/social-counts-js#readme",
+  "dependencies": {
+    "async": "^1.5.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  }
+}
