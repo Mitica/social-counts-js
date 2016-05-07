@@ -1,10 +1,10 @@
 {
   "name": "social-counts",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Nodejs social shares count module",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha"
+    "test": "./node_modules/mocha/bin/mocha -t 5000"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,8 @@
   },
   "homepage": "https://github.com/Mitica/social-counts-js#readme",
   "dependencies": {
-    "async": "^1.5.0"
+    "async": "^1.5.0",
+    "request": "^2.72.0"
   },
   "devDependencies": {
     "mocha": "^2.3.4"
